@@ -78,7 +78,7 @@ CallbackReturn DiffDriveArduino::on_activate(const rclcpp_lifecycle::State & /*p
   // arduino_.setPidValues(30, 20, 0, 100);
   // arduino_.setPidValues(40, 30, 0, 100);
   // arduino_.setPidValues(50, 40, 1, 100);  // by trial and error 2023/5/12
-  arduino_.setPidValues(60, 50, 5, 100);     // by observice response curve from foxglove studio 2021/5/15
+  arduino_.setPidValues(60, 50, 5, 100);     // by observice response curve from foxglove studio 2023/5/15
 
   return CallbackReturn::SUCCESS;
 }
